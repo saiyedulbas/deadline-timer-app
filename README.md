@@ -36,11 +36,6 @@ Response Example:
 {  
   "secondsLeft": 60  
 }  
-🛠️ Development Commands  
-Command	Description  
-npm install	 
-ng serve  
-json-server --watch db.json --port 3000	Start mock backend
 
 
 
