@@ -39,11 +39,11 @@ Response Example:
 
 
 
-✅ Best Practices Followed
-✔️ Used signals for state management
-✔️ Proper subscription cleanup with unsubscribe()
-✔️ Used RxJS for reactive updates
-✔️ Clean and modular component-based structure
+✅ Best Practices Followed  
+✔️ Used signals for state management  
+✔️ Proper subscription cleanup with unsubscribe()  
+✔️ Used RxJS for reactive updates  
+✔️ Clean and modular component-based structure  
 
 👨‍💻 Contributing
 Feel free to fork the repository and submit a pull request. Contributions are welcome! 🎯
