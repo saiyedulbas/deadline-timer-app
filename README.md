@@ -33,17 +33,15 @@ Endpoint: GET http://localhost:3000/deadline
 
 Response Example:
 
-{
-  "secondsLeft": 60
+{  
+  "secondsLeft": 60  
 }  
-🛠️ Development Commands
-Command	Description
-npm install	Install dependencies
-ng serve	Start development server
+🛠️ Development Commands  
+Command	Description  
+npm install	
+ng serve  
 json-server --watch db.json --port 3000	Start mock backend
-ng build	Build the app for production
-ng test	Run unit tests
-ng lint	Check for linting issues
+
 
 
 ✅ Best Practices Followed
