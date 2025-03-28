@@ -35,7 +35,7 @@ Response Example:
 
 {
   "secondsLeft": 60
-}
+}  
 🛠️ Development Commands
 Command	Description
 npm install	Install dependencies
