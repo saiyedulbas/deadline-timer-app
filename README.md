@@ -27,21 +27,6 @@ Open the app in your browser:
 
 👉 http://localhost:4200
 
-🏗️ Project Structure
-deadline-timer-app/
-├── src/
-│   ├── app/
-│   │   ├── deadline-timer/
-│   │   │   ├── deadline-timer.component.ts
-│   │   ├── app.component.ts
-│   ├── app.config.ts
-│   ├── main.ts
-├── db.json
-├── proxy.conf.json
-├── angular.json
-├── package.json
-├── tsconfig.json
-
 🌐 API Endpoint
 ✅ Mock API Endpoint:
 Endpoint: GET http://localhost:3000/deadline
