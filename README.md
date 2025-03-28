@@ -38,7 +38,7 @@ Response Example:
 }  
 🛠️ Development Commands  
 Command	Description  
-npm install	
+npm install	 
 ng serve  
 json-server --watch db.json --port 3000	Start mock backend
 
