@@ -1,59 +1,76 @@
-# DeadlineTimerApp
+🕒 Deadline Timer App (Angular)
+This is a simple yet performance-optimized Angular app that retrieves a countdown value from an API and displays a live countdown timer. The value decreases every second until it reaches zero. This project is built using Angular 18 with standalone components and RxJS for reactive state management.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+🚀 Features
+✅ Fetches countdown value from a backend API
+✅ Displays a live countdown timer
+✅ Uses Angular signal() for efficient state management
+✅ Handles cleanup and memory management with RxJS
+✅ Proxy configuration for API calls
+✅ Fully modular and ready for production
 
-## Development server
-
-To start a local development server, run:
-
-```bash
+📦 Setup Instructions
+1. Clone the Repository
+git clone https://github.com/your-username/deadline-timer-app.git
+cd deadline-timer-app
+2. Install Dependencies
+npm install
+3. Start the Mock API
+Install json-server globally:
+npm install -g json-server
+Start the mock server:
+json-server --watch db.json --port 3000
+5. Run the App
+Start the Angular development server:
 ng serve
-```
+Open the app in your browser:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+👉 http://localhost:4200
 
-## Code scaffolding
+🏗️ Project Structure
+deadline-timer-app/
+├── src/
+│   ├── app/
+│   │   ├── deadline-timer/
+│   │   │   ├── deadline-timer.component.ts
+│   │   ├── app.component.ts
+│   ├── app.config.ts
+│   ├── main.ts
+├── db.json
+├── proxy.conf.json
+├── angular.json
+├── package.json
+├── tsconfig.json
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🌐 API Endpoint
+✅ Mock API Endpoint:
+Endpoint: GET http://localhost:3000/deadline
 
-```bash
-ng generate component component-name
-```
+Response Example:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+{
+  "secondsLeft": 60
+}
+🛠️ Development Commands
+Command	Description
+npm install	Install dependencies
+ng serve	Start development server
+json-server --watch db.json --port 3000	Start mock backend
+ng build	Build the app for production
+ng test	Run unit tests
+ng lint	Check for linting issues
 
-```bash
-ng generate --help
-```
 
-## Building
+✅ Best Practices Followed
+✔️ Used signals for state management
+✔️ Proper subscription cleanup with unsubscribe()
+✔️ Used RxJS for reactive updates
+✔️ Clean and modular component-based structure
 
-To build the project run:
+👨‍💻 Contributing
+Feel free to fork the repository and submit a pull request. Contributions are welcome! 🎯
 
-```bash
-ng build
-```
+📝 License
+This project is licensed under the MIT License.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+🎉 Done! 😎
