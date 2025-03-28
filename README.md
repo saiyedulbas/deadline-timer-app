@@ -16,7 +16,7 @@ cd deadline-timer-app
 2. Install Dependencies
 npm install
 3. Start the Mock API
-Install json-server globally:
+Install json-server globally:  
 npm install -g json-server
 Start the mock server:
 json-server --watch db.json --port 3000
