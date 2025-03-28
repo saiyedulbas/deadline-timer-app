@@ -1,13 +1,13 @@
 🕒 Deadline Timer App (Angular)
 This is a simple yet performance-optimized Angular app that retrieves a countdown value from an API and displays a live countdown timer. The value decreases every second until it reaches zero. This project is built using Angular 18 with standalone components and RxJS for reactive state management.
 
-🚀 Features
-✅ Fetches countdown value from a backend API
-✅ Displays a live countdown timer
-✅ Uses Angular signal() for efficient state management
-✅ Handles cleanup and memory management with RxJS
-✅ Proxy configuration for API calls
-✅ Fully modular and ready for production
+🚀 Features  
+✅ Fetches countdown value from a backend API  
+✅ Displays a live countdown timer  
+✅ Uses Angular signal() for efficient state management  
+✅ Handles cleanup and memory management with RxJS  
+✅ Proxy configuration for API calls  
+✅ Fully modular and ready for production  
 
 📦 Setup Instructions
 1. Clone the Repository
