@@ -10,20 +10,20 @@ This is a simple yet performance-optimized Angular app that retrieves a countdow
 ✅ Fully modular and ready for production  
 
 📦 Setup Instructions
-1. Clone the Repository
-git clone https://github.com/your-username/deadline-timer-app.git
-cd deadline-timer-app
-2. Install Dependencies
-npm install
-3. Start the Mock API
-Install json-server globally:  
-npm install -g json-server
-Start the mock server:
-json-server --watch db.json --port 3000
-5. Run the App
-Start the Angular development server:
-ng serve
-Open the app in your browser:
+1. Clone the Repository  
+git clone https://github.com/your-username/deadline-timer-app.git  
+cd deadline-timer-app  
+2. Install Dependencies  
+npm install  
+3. Start the Mock API  
+Install json-server globally:    
+npm install -g json-server  
+Start the mock server:  
+json-server --watch db.json --port 3000  
+5. Run the App  
+Start the Angular development server:  
+ng serve  
+Open the app in your browser:  
 
 👉 http://localhost:4200
 
